@@ -3,13 +3,13 @@ name: Update README Stats
 on:
   push:
     branches:
-      - main  # or the default branch of your repository
+      - main  # Or the default branch
   schedule:
     - cron: "0 0 * * *"  # Runs every day at midnight
-  workflow_dispatch:  # Allow manual triggering
+  workflow_dispatch:  # Allows manual triggering
 
 permissions:
-  contents: write  # Allow write access to repository contents (this is the key permission needed)
+  contents: write  # Allow write access to repository contents (needed to commit changes)
 
 jobs:
   update-readme:
@@ -20,7 +20,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js (for API call)
+      # Step 2: Set up Node.js (to call the API)
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -31,17 +31,16 @@ jobs:
         run: |
           npm install axios
 
-      # Step 4: Fetch GitHub stats using the API
+      # Step 4: Fetch GitHub stats using the API with PAT authentication
       - name: Generate Stats Image
         run: |
-          # Use Node.js to call the API and save the image
           node -e "
             const axios = require('axios');
             const fs = require('fs');
             const https = require('https');
             
             const token = process.env.GH_TOKEN;
-            const username = 'MatimbaMaholobela';  
+            const username = 'MatimbaMaholobela';  // Your GitHub username goes here
             const url = \`https://github-readme-stats.vercel.app/api?username=\${username}&show_icons=true&theme=radical&access_token=\${token}\`;
 
             https.get(url, (res) => {
@@ -53,8 +52,10 @@ jobs:
               });
             });
           "
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Using PAT stored in secrets
 
-      # Step 5: Commit and push the updated image to the repository
+      # Step 5: Commit and push the updated stats image to the repository
       - name: Commit and Push Stats Image
         run: |
           git config --global user.name "GitHub Actions"
