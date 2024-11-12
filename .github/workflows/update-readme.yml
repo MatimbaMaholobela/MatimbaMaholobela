@@ -35,7 +35,7 @@ jobs:
         run: |
           echo "const axios = require('axios');" > fetch-stats.js
           echo "const fs = require('fs');" >> fetch-stats.js
-          echo "const token = process.env.GH_TOKEN;" >> fetch-stats.js
+          echo "const token = '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';" >> fetch-stats.js
           echo "const apiUrl = 'https://api.github.com/user/repos?per_page=100';" >> fetch-stats.js
           echo "if (!token) { console.error('Error: No token found.'); process.exit(1); }" >> fetch-stats.js
           echo "axios.get(apiUrl, { headers: { 'Authorization': \`token \${token}\` } })" >> fetch-stats.js
