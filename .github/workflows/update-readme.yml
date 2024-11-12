@@ -31,41 +31,40 @@ jobs:
         run: |
           npm install axios
 
-      # Step 4: Fetch GitHub repo stats using the GitHub API with PAT authentication
       - name: Fetch Repository Stats and Generate Stats Image
         run: |
-        const axios = require('axios');
-        const fs = require('fs');
-        const token = process.env.GH_TOKEN;
-        const username = 'MatimbaMaholobela';  // Your GitHub username
-        const apiUrl = 'https://api.github.com/user/repos?per_page=100';
-        
-        if (!token) {
-          console.error("Error: No token found.");
-          process.exit(1);
-        }
-        
-        axios.get(apiUrl, { headers: { 'Authorization': `token ${token}` } })
-          .then((response) => {
-            let totalStars = 0;
-            let totalForks = 0;
-            let totalIssues = 0;
-        
-            response.data.forEach(repo => {
-              totalStars += repo.stargazers_count;
-              totalForks += repo.forks_count;
-              totalIssues += repo.open_issues_count;
-            });
-        
-            const statsText = `Total Stars: ${totalStars} | Total Forks: ${totalForks} | Total Open Issues: ${totalIssues}`;
-            fs.writeFileSync('./github-stats.txt', statsText);
-            console.log('Stats saved to github-stats.txt');
-          })
-          .catch((error) => {
-            console.error('Error fetching repos:', error.response ? error.response.data : error.message);
+          const axios = require('axios');
+          const fs = require('fs');
+          const token = process.env.GH_TOKEN;
+          const apiUrl = 'https://api.github.com/user/repos?per_page=100';
+          
+          if (!token) {
+            console.error("Error: No token found.");
             process.exit(1);
-          });
-
+          }
+          
+          axios.get(apiUrl, { headers: { 'Authorization': `token ${token}` } })
+            .then((response) => {
+              let totalStars = 0;
+              let totalForks = 0;
+              let totalIssues = 0;
+          
+              response.data.forEach(repo => {
+                totalStars += repo.stargazers_count;
+                totalForks += repo.forks_count;
+                totalIssues += repo.open_issues_count;
+              });
+          
+              const statsText = `Total Stars: ${totalStars} | Total Forks: ${totalForks} | Total Open Issues: ${totalIssues}`;
+              fs.writeFileSync('./github-stats.txt', statsText);
+              console.log('Stats saved to github-stats.txt');
+            })
+            .catch((error) => {
+              console.error('Error fetching repos:', error.response ? error.response.data : error.message);
+              process.exit(1);
+            });
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       
           # Now, execute the JavaScript file with Node.js
           node generate-repo-stats.js
