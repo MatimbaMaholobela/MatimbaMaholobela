@@ -17,11 +17,13 @@ Welcome to my GitHub space! I am a dedicated software engineer with a passion fo
 - **HTML, CSS**
 
 #### **Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
 - **AWS** (EC2, S3, IAM, CloudFormation)
-- **Docker** - Containerization
+- **Docker** - Containerization and management
+- **DigitalOcean** - App Platform, Droplets for server management
 - **CI/CD** - GitHub Actions, Jenkins
 - **Linux Administration** (Ubuntu, FreeBSD)
+
 
 #### **Web & API Development**
 - **Django Framework** - Full-stack Python development
