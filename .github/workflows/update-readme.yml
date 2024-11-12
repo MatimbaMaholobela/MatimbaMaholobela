@@ -3,13 +3,13 @@ name: Update README Stats
 on:
   push:
     branches:
-      - main  # Or the default branch
+      - main
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight
-  workflow_dispatch:  # Allows manual triggering
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Allow write access to repository contents (needed to commit changes)
+  contents: write
 
 jobs:
   update-readme:
@@ -30,43 +30,38 @@ jobs:
       - name: Install Dependencies
         run: npm install axios
 
-      # Step 4: Fetch GitHub repo stats using the GitHub API with PAT authentication
-      - name: Fetch Repository Stats and Generate Stats Image
+      # Step 4: Create JavaScript file to fetch repo stats
+      - name: Create Fetch Stats Script
         run: |
-          const axios = require('axios');
-          const fs = require('fs');
-          const token = process.env.GH_TOKEN;
-          const apiUrl = 'https://api.github.com/user/repos?per_page=100';
-          
-          if (!token) {
-            console.error("Error: No token found.");
-            process.exit(1);
-          }
-          
-          axios.get(apiUrl, { headers: { 'Authorization': `token ${token}` } })
-            .then((response) => {
-              let totalStars = 0;
-              let totalForks = 0;
-              let totalIssues = 0;
-          
-              response.data.forEach(repo => {
-                totalStars += repo.stargazers_count;
-                totalForks += repo.forks_count;
-                totalIssues += repo.open_issues_count;
-              });
-          
-              const statsText = `Total Stars: ${totalStars} | Total Forks: ${totalForks} | Total Open Issues: ${totalIssues}`;
-              fs.writeFileSync('./github-stats.txt', statsText);
-              console.log('Stats saved to github-stats.txt');
-            })
-            .catch((error) => {
-              console.error('Error fetching repos:', error.response ? error.response.data : error.message);
-              process.exit(1);
-            });
+          echo "const axios = require('axios');" > fetch-stats.js
+          echo "const fs = require('fs');" >> fetch-stats.js
+          echo "const token = process.env.GH_TOKEN;" >> fetch-stats.js
+          echo "const apiUrl = 'https://api.github.com/user/repos?per_page=100';" >> fetch-stats.js
+          echo "if (!token) { console.error('Error: No token found.'); process.exit(1); }" >> fetch-stats.js
+          echo "axios.get(apiUrl, { headers: { 'Authorization': \`token \${token}\` } })" >> fetch-stats.js
+          echo "  .then((response) => {" >> fetch-stats.js
+          echo "    let totalStars = 0; let totalForks = 0; let totalIssues = 0;" >> fetch-stats.js
+          echo "    response.data.forEach(repo => {" >> fetch-stats.js
+          echo "      totalStars += repo.stargazers_count;" >> fetch-stats.js
+          echo "      totalForks += repo.forks_count;" >> fetch-stats.js
+          echo "      totalIssues += repo.open_issues_count;" >> fetch-stats.js
+          echo "    });" >> fetch-stats.js
+          echo "    const statsText = \`Total Stars: \${totalStars} | Total Forks: \${totalForks} | Total Open Issues: \${totalIssues}\`;" >> fetch-stats.js
+          echo "    fs.writeFileSync('./github-stats.txt', statsText);" >> fetch-stats.js
+          echo "    console.log('Stats saved to github-stats.txt');" >> fetch-stats.js
+          echo "  })" >> fetch-stats.js
+          echo "  .catch((error) => {" >> fetch-stats.js
+          echo "    console.error('Error fetching repos:', error.response ? error.response.data : error.message);" >> fetch-stats.js
+          echo "    process.exit(1);" >> fetch-stats.js
+          echo "  });"
+
+      # Step 5: Execute the JavaScript file
+      - name: Fetch Repository Stats
+        run: node fetch-stats.js
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-      
-      # Step 5: Check for Changes and Commit Stats Image
+
+      # Step 6: Check for Changes and Commit Stats Image
       - name: Check for Changes and Commit Stats Image
         run: |
           if git diff --exit-code; then
@@ -74,18 +69,17 @@ jobs:
           else
             git config --global user.name "GitHub Actions"
             git config --global user.email "actions@github.com"
-            git add github-stats.txt  # Only add the relevant files
+            git add github-stats.txt
             git commit -m "Update GitHub repo stats"
             git push
           fi
 
-      # Step 6: Update README with the new stats
+      # Step 7: Update README with the new stats
       - name: Update README with Stats
         run: |
-          # Append the stats to README.md
           echo "## GitHub Stats" >> README.md
           cat github-stats.txt >> README.md
-          git add README.md  # Only add the README file
+          git add README.md
           git commit -m "Update README with repo stats"
           git push
         env:
