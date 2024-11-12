@@ -53,7 +53,8 @@ jobs:
           echo "  .catch((error) => {" >> fetch-stats.js
           echo "    console.error('Error fetching repos:', error.response ? error.response.data : error.message);" >> fetch-stats.js
           echo "    process.exit(1);" >> fetch-stats.js
-          echo "  });"
+          echo "  });" >> fetch-stats.js
+
 
       # Step 5: Execute the JavaScript file
       - name: Fetch Repository Stats
