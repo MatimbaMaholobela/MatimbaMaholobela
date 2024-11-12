@@ -28,9 +28,9 @@ jobs:
 
       # Step 3: Install dependencies (axios for API call)
       - name: Install Dependencies
-        run: |
-          npm install axios
+        run: npm install axios
 
+      # Step 4: Fetch GitHub repo stats using the GitHub API with PAT authentication
       - name: Fetch Repository Stats and Generate Stats Image
         run: |
           const axios = require('axios');
@@ -66,11 +66,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
       
-          # Now, execute the JavaScript file with Node.js
-          node generate-repo-stats.js
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Use your GitHub Token
-
+      # Step 5: Check for Changes and Commit Stats Image
       - name: Check for Changes and Commit Stats Image
         run: |
           if git diff --exit-code; then
