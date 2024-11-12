@@ -43,7 +43,7 @@ I am an experienced Software Engineer with extensive knowledge in software devel
 
 ## 📊 GitHub Stats
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical)
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=MatimbaMaholobela&show_icons=true&theme=radical)
 
 ---
 
