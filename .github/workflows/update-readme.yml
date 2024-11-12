@@ -38,7 +38,7 @@ jobs:
         const fs = require('fs');
         const token = process.env.GH_TOKEN;
         const username = 'MatimbaMaholobela';  // Your GitHub username
-        const apiUrl = `https://api.github.com/users/${username}/repos?per_page=100`;
+        const apiUrl = 'https://api.github.com/user/repos?per_page=100';
         
         if (!token) {
           console.error("Error: No token found.");
