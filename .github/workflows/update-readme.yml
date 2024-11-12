@@ -34,25 +34,26 @@ jobs:
       # Step 4: Fetch GitHub stats using the API with PAT authentication
       - name: Generate Stats Image
         run: |
-          const axios = require('axios');
-          const fs = require('fs');
-          
-          const token = process.env.GH_TOKEN;
-          const username = 'MatimbaMaholobela';  // Your GitHub username
-          const url = `https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=radical&access_token=${token}`;
-          
-          axios.get(url)
-            .then((response) => {
-              // Write the image to the file system
-              fs.writeFileSync('./github-stats.svg', response.data);
-              console.log('Image saved as github-stats.svg');
-            })
-            .catch((error) => {
-              console.error('Error fetching stats:', error);
-              process.exit(1);  // Exit the script with an error code
-            });
+          echo "const axios = require('axios');" > generate-stats.js
+          echo "const fs = require('fs');" >> generate-stats.js
+          echo "const token = process.env.GH_TOKEN;" >> generate-stats.js
+          echo "const username = 'MatimbaMaholobela';" >> generate-stats.js
+          echo "const url = \`https://github-readme-stats.vercel.app/api?username=\${username}&show_icons=true&theme=radical&access_token=\${token}\`;" >> generate-stats.js
+          echo "axios.get(url)" >> generate-stats.js
+          echo "  .then((response) => {" >> generate-stats.js
+          echo "    fs.writeFileSync('./github-stats.svg', response.data);" >> generate-stats.js
+          echo "    console.log('Image saved as github-stats.svg');" >> generate-stats.js
+          echo "  })" >> generate-stats.js
+          echo "  .catch((error) => {" >> generate-stats.js
+          echo "    console.error('Error fetching stats:', error);" >> generate-stats.js
+          echo "    process.exit(1);" >> generate-stats.js
+          echo "  });" >> generate-stats.js
+      
+          # Now, execute the JavaScript file with Node.js
+          node generate-stats.js
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Using PAT stored in secrets
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Use your GitHub Token
+
 
       # Step 5: Check if the file exists and commit the image if updated
       - name: Check for Changes and Commit Stats Image
