@@ -71,7 +71,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Use your GitHub Token
 
-      # Step 5: Check if the file exists and commit the image if updated
       - name: Check for Changes and Commit Stats Image
         run: |
           if git diff --exit-code; then
