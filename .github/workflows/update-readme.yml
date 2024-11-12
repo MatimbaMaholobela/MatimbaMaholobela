@@ -38,7 +38,7 @@ jobs:
             const https = require('https');
             
             const token = process.env.GH_TOKEN;
-            const username = 'MatimbaMaholobela';  # Replace with your GitHub username
+            const username = 'MatimbaMaholobela';  
             const url = \`https://github-readme-stats.vercel.app/api?username=\${username}&show_icons=true&theme=radical&access_token=\${token}\`;
 
             https.get(url, (res) => {
