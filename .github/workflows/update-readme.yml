@@ -31,29 +31,37 @@ jobs:
         run: |
           npm install axios
 
-      # Step 4: Fetch GitHub stats using the API with PAT authentication
-      - name: Generate Stats Image
+      # Step 4: Fetch GitHub repo stats using the GitHub API with PAT authentication
+      - name: Fetch Repository Stats and Generate Stats Image
         run: |
-          echo "const axios = require('axios');" > generate-stats.js
-          echo "const fs = require('fs');" >> generate-stats.js
-          echo "const token = process.env.GH_TOKEN;" >> generate-stats.js
-          echo "const username = 'MatimbaMaholobela';" >> generate-stats.js
-          echo "const url = \`https://github-readme-stats.vercel.app/api?username=\${username}&show_icons=true&theme=radical&access_token=\${token}\`;" >> generate-stats.js
-          echo "axios.get(url)" >> generate-stats.js
-          echo "  .then((response) => {" >> generate-stats.js
-          echo "    fs.writeFileSync('./github-stats.svg', response.data);" >> generate-stats.js
-          echo "    console.log('Image saved as github-stats.svg');" >> generate-stats.js
-          echo "  })" >> generate-stats.js
-          echo "  .catch((error) => {" >> generate-stats.js
-          echo "    console.error('Error fetching stats:', error);" >> generate-stats.js
-          echo "    process.exit(1);" >> generate-stats.js
-          echo "  });" >> generate-stats.js
+          echo "const axios = require('axios');" > generate-repo-stats.js
+          echo "const fs = require('fs');" >> generate-repo-stats.js
+          echo "const token = process.env.GH_TOKEN;" >> generate-repo-stats.js
+          echo "const username = 'MatimbaMaholobela';" >> generate-repo-stats.js
+          echo "const apiUrl = \`https://api.github.com/users/\${username}/repos?per_page=100\`;" >> generate-repo-stats.js
+          echo "axios.get(apiUrl, { headers: { 'Authorization': \`token \${token}\` } })" >> generate-repo-stats.js
+          echo "  .then((response) => {" >> generate-repo-stats.js
+          echo "    let totalStars = 0;" >> generate-repo-stats.js
+          echo "    let totalForks = 0;" >> generate-repo-stats.js
+          echo "    let totalIssues = 0;" >> generate-repo-stats.js
+          echo "    response.data.forEach(repo => {" >> generate-repo-stats.js
+          echo "      totalStars += repo.stargazers_count;" >> generate-repo-stats.js
+          echo "      totalForks += repo.forks_count;" >> generate-repo-stats.js
+          echo "      totalIssues += repo.open_issues_count;" >> generate-repo-stats.js
+          echo "    });" >> generate-repo-stats.js
+          echo "    const statsText = \`Total Stars: \${totalStars} | Total Forks: \${totalForks} | Total Open Issues: \${totalIssues}\`;" >> generate-repo-stats.js
+          echo "    fs.writeFileSync('./github-stats.txt', statsText);" >> generate-repo-stats.js
+          echo "    console.log('Stats saved to github-stats.txt');" >> generate-repo-stats.js
+          echo "  })" >> generate-repo-stats.js
+          echo "  .catch((error) => {" >> generate-repo-stats.js
+          echo "    console.error('Error fetching repos:', error);" >> generate-repo-stats.js
+          echo "    process.exit(1);" >> generate-repo-stats.js
+          echo "  });" >> generate-repo-stats.js
       
           # Now, execute the JavaScript file with Node.js
-          node generate-stats.js
+          node generate-repo-stats.js
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Use your GitHub Token
-
 
       # Step 5: Check if the file exists and commit the image if updated
       - name: Check for Changes and Commit Stats Image
@@ -63,18 +71,19 @@ jobs:
           else
             git config --global user.name "GitHub Actions"
             git config --global user.email "actions@github.com"
-            git add github-stats.svg  # Only add the relevant files
-            git commit -m "Update GitHub stats image"
+            git add github-stats.txt  # Only add the relevant files
+            git commit -m "Update GitHub repo stats"
             git push
           fi
 
-      # Step 6: Update README with the new stats image
-      - name: Update README with Stats Image
+      # Step 6: Update README with the new stats
+      - name: Update README with Stats
         run: |
-          # Safely append the image to README.md
-          echo '![GitHub Stats](github-stats.svg)' >> README.md
+          # Append the stats to README.md
+          echo "## GitHub Stats" >> README.md
+          cat github-stats.txt >> README.md
           git add README.md  # Only add the README file
-          git commit -m "Update README with new stats image"
+          git commit -m "Update README with repo stats"
           git push
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
