@@ -47,7 +47,7 @@ I currently lead a team of five developers in building a logistics-focused web a
 
 - **Python** (Django, REST APIs)
 - **Java** (Spring Framework)
-- **SQL** (Postgres, MySQL, SQLite)
+- **SQL** (Postgres, MySQL, SQLite, Amazon RDS)
 - **JavaScript/TypeScript** (React, Node.js)
 - **HTML, CSS**
 
@@ -57,7 +57,7 @@ I currently lead a team of five developers in building a logistics-focused web a
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
 
-- **AWS** (EC2, S3, IAM, CloudFormation)
+- **AWS** (EC2, S3, IAM, CloudFormation, AWS Web Services)
 - **Docker** - Containerization and management
 - **DigitalOcean** - App Platform, Droplets for server management
 - **CI/CD** - GitHub Actions, Jenkins
