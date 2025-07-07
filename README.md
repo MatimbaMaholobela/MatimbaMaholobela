@@ -6,7 +6,7 @@ Welcome to my GitHub space! I am a dedicated software engineer with a passion fo
 
 ---
 
-## 👨‍💼 Current Role
+## 👨‍💼 Current Role (Freelance)
 
 ### 🏢 Lead Software Engineer @ Storage Sprint
 I currently lead a team of five developers in building a logistics-focused web application to manage package movements across Cape Town.
