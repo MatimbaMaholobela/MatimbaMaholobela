@@ -35,8 +35,8 @@ I currently lead a team of five developers in building a logistics-focused web a
   - **Containerization:** Docker  
   - **Hosting:** AWS, DigitalOcean  
   - **Database:** Amazon RDS
-  - ** Google: ** Google Maps, ETA
-  - ** Zoho: ** Zoho Books for invoicing, Zoho Emails  
+  - **Google:** Google Maps, ETA
+  - **Zoho:** Zoho Books for invoicing, Zoho Emails  
 
 ---
 
