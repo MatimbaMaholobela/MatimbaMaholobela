@@ -34,7 +34,9 @@ I currently lead a team of five developers in building a logistics-focused web a
   - **Payment Gateway:** PayFast  
   - **Containerization:** Docker  
   - **Hosting:** AWS, DigitalOcean  
-  - **Database:** Amazon RDS  
+  - **Database:** Amazon RDS
+  - ** Google: ** Google Maps, ETA
+  - ** Zoho: ** Zoho Books for invoicing, Zoho Emails  
 
 ---
 
@@ -48,7 +50,7 @@ I currently lead a team of five developers in building a logistics-focused web a
 - **Python** (Django, REST APIs)
 - **Java** (Spring Framework)
 - **SQL** (Postgres, MySQL, SQLite, Amazon RDS)
-- **JavaScript/TypeScript** (React, Node.js)
+- **JavaScript** (React)
 - **HTML, CSS**
 
 ### Cloud & DevOps
@@ -68,7 +70,6 @@ I currently lead a team of five developers in building a logistics-focused web a
 - **Django Framework** - Full-stack Python development
 - **Spring Framework** - Enterprise-grade Java applications
 - **RESTful APIs** - Scalable backend solutions
-- **Salesforce Development** - Apex, Visualforce, Lightning Components
 
 ### Collaboration & Agile Methodologies
 
