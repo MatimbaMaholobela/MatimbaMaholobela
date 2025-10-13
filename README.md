@@ -119,7 +119,7 @@ A custom DNS server implemented in **Python Twisted**, extending the library to 
 - **AWS:** EC2, S3, IAM, RDS, CloudFormation  
 - **Docker:** Containerization and management  
 - **DigitalOcean:** App Platform, Droplets  
-- **CI/CD:** GitHub Actions, Jenkins  
+- **CI/CD:** GitHub Actions
 - **Linux Administration:** Ubuntu, FreeBSD  
 
 ### **Tools & Methodologies**
