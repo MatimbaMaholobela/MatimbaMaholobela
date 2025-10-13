@@ -1,146 +1,157 @@
 # Hey there! I'm Matimba Maholobela 👋
 
-🔧 **Experienced Software Engineer** | 🌥️ **AWS Cloud Practitioner | AWS Developerc - Associate Candidate** | 🖥️ **IT Service Desk Specialist** | 🚀 **Continuous Learner**
+🔧 **Experienced Software Engineer** | 🌥️ **AWS Cloud Practitioner** | 🎯 **AWS Developer – Associate Candidate** | 🖥️ **IT Service Desk Specialist** | 🚀 **Continuous Learner**
 
-Welcome to my GitHub space! I am a dedicated software engineer with a passion for building optimized and maintainable software systems. With expertise in software development, cloud computing, and IT service management, I continually seek to deliver impactful solutions. My commitment to quality and collaboration has earned me multiple **Excellence in Action Certificates**.
+Welcome to my GitHub space!  
+I’m a dedicated software engineer with a passion for building optimized and maintainable software systems. With expertise in software development, cloud computing, and IT service management, I continually seek to deliver impactful solutions.  
+My commitment to quality and collaboration has earned me multiple **Excellence in Action Certificates**.
+
+---
+
+## 🎓 Certifications
+
+- 🏆 **AWS Certified Cloud Practitioner**  
+- 🚀 **AWS Certified Developer – Associate (In Progress)**  
+- 💼 **SEACOM - Excellence in Action Certificates (Multiple)**  
 
 ---
 
 ## 👨‍💼 Current Role (Freelance)
 
-### 🏢 Lead Software Engineer @ Storage Sprint
-I currently lead a team of five developers in building a logistics-focused web application to manage package movements across Cape Town.
+### 🏢 Lead Software Engineer @ [Storage Sprint](#)
+Leading a team of five developers in building a logistics-focused web application managing package movements across Cape Town.
 
-- **Responsibilities:**
-  - Leading the full-stack architecture and agile development process
-  - Managing code quality, deployment cycles, and stakeholder communication
-  - Ensuring secure, scalable, and maintainable solutions
+#### **Responsibilities**
+- Leading full-stack architecture and agile development process  
+- Managing code quality, deployment cycles, and stakeholder communication  
+- Ensuring secure, scalable, and maintainable solutions  
 
-- **Key Features:**
-  - Real-time package tracking and status updates
-  - Seamless payment processing with **PayFast**
-  - RESTful backend with Django and interactive UI with React
+#### **Key Features**
+- Real-time package tracking and status updates  
+- Seamless payment processing with **PayFast**  
+- RESTful backend with **Django** and interactive UI with **React**  
 
-- **Tech Stack:**
-
-  ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-  ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
-
-  - **Backend:** Django REST Framework  
-  - **Frontend:** React  
-  - **Payment Gateway:** PayFast  
-  - **Containerization:** Docker  
-  - **Hosting:** AWS, DigitalOcean  
-  - **Database:** Amazon RDS
-  - **Google:** Google Maps, ETA
-  - **Zoho:** Zoho Books for invoicing, Zoho Emails  
-
----
-
-## ⚙️ Tech Stack & Skills
-
-### Languages & Frameworks
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-
-- **Python** (Django, REST APIs)
-- **Java** (Spring Framework)
-- **SQL** (Postgres, MySQL, SQLite, Amazon RDS)
-- **JavaScript** (React)
-- **HTML, CSS**
-
-### Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+#### **Tech Stack**
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
 
-- **AWS** (EC2, S3, IAM, CloudFormation, AWS Web Services)
-- **Docker** - Containerization and management
-- **DigitalOcean** - App Platform, Droplets for server management
-- **CI/CD** - GitHub Actions, Jenkins
-- **Linux Administration** (Ubuntu, FreeBSD)
-
-### Web & API Development
-
-- **Django Framework** - Full-stack Python development
-- **Spring Framework** - Enterprise-grade Java applications
-- **RESTful APIs** - Scalable backend solutions
-
-### Collaboration & Agile Methodologies
-
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-- **Jira/Confluence** - Agile project management
-- **Git/GitHub/GitLab** - Version control and collaboration
+**Backend:** Django REST Framework  
+**Frontend:** React  
+**Payment Gateway:** PayFast  
+**Containerization:** Docker  
+**Hosting:** AWS, DigitalOcean  
+**Database:** Amazon RDS  
+**Integrations:** Google Maps, Zoho Books & Emails  
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🌐 Django Projects
+### 🌐 **Django Projects**
 
-#### 1. [User-Friendly SQL Assignment System](https://github.com/MatimbaMaholobela/sqltest-system)
+#### 1. User-Friendly SQL Assignment System
 A system designed to streamline the creation and evaluation of SQL assignments, enhancing the educational experience for computer science students through automated assessments.
 
-- **Technologies:** Django, Python, SQL
-- **Highlights:**
-  - Easy-to-use interface for creating SQL assignments
-  - Automated query evaluation for grading
-  - Optimized for educational use
+**Technologies:** Django, Python, SQL  
 
-#### 2. [CS2 Admin System](https://github.com/MatimbaMaholobela/cs2-admin-system)
-Admin system to manage medical certificates, assignment extensions, and waivers efficiently. Seamless integration of backend APIs with frontend components.
+**Highlights:**
+- Easy-to-use interface for creating SQL assignments  
+- Automated query evaluation for grading  
+- Optimized for educational use  
 
-- **Technologies:** Django, Python, REST APIs
-- **Features:**
-  - Management of medical certificates and waivers
-  - API-based integration for enhanced UX
+#### 2. CS2 Admin System
+Admin system for managing medical certificates, assignment extensions, and waivers efficiently — featuring seamless backend-frontend integration via REST APIs.
 
-### ☕ Spring Projects
+**Technologies:** Django, Python, REST APIs  
 
-#### 1. [To-Do List Application](https://github.com/MatimbaMaholobela/to-do-list-app/tree/main)
-A comprehensive to-do list app showcasing CRUD operations with persistent data storage using Spring Framework.
+**Features:**
+- Centralized management of academic waivers and extensions  
+- Streamlined workflow for students and administrators  
 
-- **Technologies:** Java, Spring, SQLite
-- **Highlights:**
-  - CRUD operations for tasks
-  - User interface for task management
-  - Analytics page for task statistics and filtering by date
+---
+
+### ☕ **Spring & Python Networking Projects**
+
+#### 1. To-Do List Application
+A comprehensive to-do list app showcasing CRUD operations with persistent data storage using the Spring Framework.
+
+**Technologies:** Java, Spring, SQLite  
+
+**Highlights:**
+- Full CRUD operations for tasks  
+- User interface for task management  
+- Analytics page for task statistics and date filtering  
+
+#### 2. DNS Server with APL Record Support
+A custom DNS server implemented in **Python Twisted**, extending the library to support the experimental **APL (Address Prefix List)** record type.
+
+**Technologies:** Python, Twisted, DNS Protocol  
+
+**Highlights:**
+- Extended Twisted to handle unsupported APL record type  
+- Implemented a DNS server parsing and responding to APL queries  
+- Deep experience in network programming & protocol implementation  
+- Successfully implemented binary APL record format per RFC  
+
+---
+
+## ⚙️ Tech Stack & Skills
+
+### **Languages & Frameworks**
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+- **Python:** Django, REST APIs, Twisted  
+- **Java:** Spring Framework  
+- **SQL:** Postgres, MySQL, SQLite, Amazon RDS  
+- **JavaScript:** React  
+- **Frontend:** HTML, CSS  
+
+### **Cloud & DevOps**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+
+- **AWS:** EC2, S3, IAM, RDS, CloudFormation  
+- **Docker:** Containerization and management  
+- **DigitalOcean:** App Platform, Droplets  
+- **CI/CD:** GitHub Actions, Jenkins  
+- **Linux Administration:** Ubuntu, FreeBSD  
+
+### **Tools & Methodologies**
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+- **Jira/Confluence:** Agile project management  
+- **Git/GitHub/GitLab:** Version control and collaboration  
+
+---
+
+## 📊 GitHub Stats & Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MatimbaMaholobela&show_icons=true&theme=tokyonight" alt="Matimba's GitHub stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MatimbaMaholobela&theme=tokyonight" alt="GitHub Streak" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatimbaMaholobela&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
 
 ---
 
 ## 📫 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-MatimbaMaholobela-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/matimba-maholobela/)
-[![Email](https://img.shields.io/badge/Email-matimba.maholobela%40icloud.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matimba.maholobela@icloud.com)
+[![LinkedIn - Matimba Maholobela](https://img.shields.io/badge/LinkedIn-MatimbaMaholobela-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/matimbamaholobela)
+[![Email - Matimba](https://img.shields.io/badge/Email-matimba.maholobela%40icloud.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matimba.maholobela@icloud.com)
 
-I'm open to collaboration, new ideas, and tech discussions!
-
----
-
-### 🎓 Certifications
-
-- **AWS Certified Cloud Practitioner**
-- **AWS Certified Developer – Associate** *(In Progress)*
-- **SEACOM - Excellence in Action Certificates** (Multiple)
-
----
-
-## 🛠️ Tools & Tech I'm Passionate About
-
-- **AWS** (EC2, S3, IAM, CloudFormation, AWS Web Services)
-- **Docker** for containerization
-- **Agile Methodologies** with Jira and Confluence
-- **Continuous Learning** through hands-on experience
+I’m open to **collaboration**, **new ideas**, and **tech discussions**!
 
 ---
 
 ## 🎯 Fun Fact
-
-I’m always eager to tackle new challenges, automate workflows, and build solutions that make life easier—one line of code at a time!
+I’m always eager to tackle new challenges, automate workflows, and build solutions that make life easier — **one line of code at a time!**
