@@ -52,7 +52,7 @@ Leading a team of five developers in building a logistics-focused web applicatio
 
 ### 🌐 **Django Projects**
 
-#### 1. User-Friendly SQL Assignment System
+#### [1. User-Friendly SQL Assignment System](https://github.com/MatimbaMaholobela/sqltest-system)
 A system designed to streamline the creation and evaluation of SQL assignments, enhancing the educational experience for computer science students through automated assessments.
 
 **Technologies:** Django, Python, SQL  
@@ -62,7 +62,7 @@ A system designed to streamline the creation and evaluation of SQL assignments, 
 - Automated query evaluation for grading  
 - Optimized for educational use  
 
-#### 2. CS2 Admin System
+#### [2. CS2 Admin System](https://github.com/MatimbaMaholobela/cs2-admin-system)
 Admin system for managing medical certificates, assignment extensions, and waivers efficiently — featuring seamless backend-frontend integration via REST APIs.
 
 **Technologies:** Django, Python, REST APIs  
@@ -75,7 +75,7 @@ Admin system for managing medical certificates, assignment extensions, and waive
 
 ### ☕ **Spring & Python Networking Projects**
 
-#### 1. To-Do List Application
+#### [1. To-Do List Application](https://github.com/MatimbaMaholobela/to-do-list-app)
 A comprehensive to-do list app showcasing CRUD operations with persistent data storage using the Spring Framework.
 
 **Technologies:** Java, Spring, SQLite  
@@ -85,7 +85,7 @@ A comprehensive to-do list app showcasing CRUD operations with persistent data s
 - User interface for task management  
 - Analytics page for task statistics and date filtering  
 
-#### 2. DNS Server with APL Record Support
+#### [2. DNS Server with APL Record Support](https://github.com/MatimbaMaholobela/DNS-Server-APL-Record)
 A custom DNS server implemented in **Python Twisted**, extending the library to support the experimental **APL (Address Prefix List)** record type.
 
 **Technologies:** Python, Twisted, DNS Protocol  
@@ -119,7 +119,7 @@ A custom DNS server implemented in **Python Twisted**, extending the library to 
 - **AWS:** EC2, S3, IAM, RDS, CloudFormation  
 - **Docker:** Containerization and management  
 - **DigitalOcean:** App Platform, Droplets  
-- **CI/CD:** GitHub Actions
+- **CI/CD:** GitHub Actions  
 - **Linux Administration:** Ubuntu, FreeBSD  
 
 ### **Tools & Methodologies**
@@ -140,6 +140,22 @@ A custom DNS server implemented in **Python Twisted**, extending the library to 
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatimbaMaholobela&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=MatimbaMaholobela&theme=tokyonight&row=1&no-bg=true&no-frame=true" alt="GitHub Trophies" />
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MatimbaMaholobela&theme=tokyo-night" alt="Matimba's Contribution Graph" />
 </p>
 
 ---
