@@ -1,6 +1,6 @@
 # Hey there! I'm Matimba Maholobela 👋
 
-🔧 **Experienced Software Engineer** | 🌥️ **AWS Cloud Practitioner** | 🎯 **AWS Developer – Associate Candidate** | 🖥️ **IT Service Desk Specialist** | 🚀 **Continuous Learner**
+🔧 **Experienced Software Engineer** | 🌥️ **AWS Cloud Practitioner** | 🎯 **AWS Developer – Associate Candidate** | 🚀 **Continuous Learner**
 
 Welcome to my GitHub space!  
 I’m a dedicated software engineer with a passion for building optimized and maintainable software systems. With expertise in software development, cloud computing, and IT service management, I continually seek to deliver impactful solutions.  
