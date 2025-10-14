@@ -5,24 +5,30 @@
 
 ---
 
-# 👋 Hey, I'm **Matimba Maholobela**
+<h1 align="center" style="background: linear-gradient(to right, #6a11cb, #2575fc); -webkit-background-clip: text; color: transparent;">
+  👋 Hey, I'm Matimba Maholobela
+</h1>
 
-🔧 **Software Engineer** • ☁️ **AWS Cloud Practitioner** • 💻 **Full-Stack Developer** • 🚀 **Continuous Learner**
+<p align="center">
+🔧 <b>Software Engineer</b> • ☁️ <b>AWS Cloud Practitioner</b> • 💻 <b>Full-Stack Developer</b> • 🚀 <b>Continuous Learner</b>
+</p>
 
-> Crafting **scalable, maintainable, and impactful systems** with a love for **cloud, DevOps, and full-stack development**.
+<p align="center">
+<i>Building scalable, maintainable, and impactful systems while exploring cloud, DevOps, and full-stack development.</i>
+</p>
 
-🏅 Proud recipient of **SEACOM Excellence in Action Awards**
+🏅 Recipient of **SEACOM Excellence in Action Awards**
 
 ---
 
 ## 🎓 Certifications & Education
 
-<div align="center">
-🎓 **BSc in Computer Science & Applied Statistics – University of Cape Town**  
-🏆 **AWS Certified Cloud Practitioner**  
-🚀 **AWS Certified Developer – Associate (In Progress)**  
-💼 **SEACOM Excellence in Action Certificates (Multiple)**  
-</div>
+<p align="center">
+🎓 <b>BSc in Computer Science & Applied Statistics – University of Cape Town</b>  
+🏆 <b>AWS Certified Cloud Practitioner</b>  
+🚀 <b>AWS Certified Developer – Associate (In Progress)</b>  
+💼 <b>SEACOM Excellence in Action Certificates</b>  
+</p>
 
 ---
 
@@ -30,23 +36,21 @@
 
 ### 🏢 Lead Software Engineer @ [Storage Sprint](https://www.storagesprint.co.za)
 
-<div align="center">
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=django,react,spring,docker,aws,digitalocean" />
   </a>
 </p>
-</div>
 
 **Responsibilities:**
 - Architecting full-stack solutions  
-- Managing **CI/CD pipelines** & agile workflows  
+- Managing CI/CD pipelines & agile workflows  
 - Ensuring scalability, performance & security  
 
 **Highlights:**
-- Real-time **package tracking system**  
-- Secure **PayFast** payment integration  
-- **Django REST** backend + **React** frontend  
+- Real-time package tracking system  
+- Secure PayFast payment integration  
+- Django REST backend + React frontend  
 
 ---
 
@@ -56,10 +60,10 @@
 
 | Project | Description | Tech & Highlights |
 |---------|------------|-----------------|
-| [SQL Assignment System](https://github.com/MatimbaMaholobela/sqltest-system) | Streamlines **SQL assignment creation & grading** | Django • Python • SQL • Automated query evaluation |
-| [CS2 Admin System](https://github.com/MatimbaMaholobela/cs2-admin-system) | Manage **academic certificates & waivers** | Django • REST APIs • Role-based access |
-| [To-Do List App](https://github.com/MatimbaMaholobela/to-do-list-app) | **Task manager with analytics** | Java • Spring • SQLite • CRUD + Dashboard |
-| [DNS Server w/ APL Support](https://github.com/MatimbaMaholobela/DNS-Server-APL-Record) | **Custom DNS server supporting APL records** | Python • Twisted • Networking & RFC-compliant |
+| [SQL Assignment System](https://github.com/MatimbaMaholobela/sqltest-system) | Streamlines SQL assignment creation & grading | Django • Python • SQL • Automated evaluation |
+| [CS2 Admin System](https://github.com/MatimbaMaholobela/cs2-admin-system) | Manage academic certificates & waivers | Django • REST APIs • Role-based access |
+| [To-Do List App](https://github.com/MatimbaMaholobela/to-do-list-app) | Task manager with analytics | Java • Spring • SQLite • CRUD + Dashboard |
+| [DNS Server w/ APL Support](https://github.com/MatimbaMaholobela/DNS-Server-APL-Record) | Custom DNS server supporting APL records | Python • Twisted • Networking & RFC-compliant |
 
 </div>
 
@@ -90,35 +94,35 @@
 
 ---
 
-## 📊 GitHub Insights
+## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=MatimbaMaholobela&show_icons=true&theme=react" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=MatimbaMaholobela&theme=react" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=MatimbaMaholobela&show_icons=true&theme=radical" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=MatimbaMaholobela&theme=radical" height="165" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatimbaMaholobela&layout=compact&theme=react" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatimbaMaholobela&layout=compact&theme=radical" />
 </p>
 
 <p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=MatimbaMaholobela&theme=react&no-bg=true&no-frame=true" />
+<img src="https://github-profile-trophy.vercel.app/?username=MatimbaMaholobela&theme=radical&no-bg=true&no-frame=true" />
 </p>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MatimbaMaholobela&theme=react" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MatimbaMaholobela&theme=react-dark" />
 </p>
 
 ---
 
 ## 🤝 Connect with Me
 
-<div align="center">
+<p align="center">
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-MatimbaMaholobela-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/matimbamaholobela)
 [![Email](https://img.shields.io/badge/Email-matimba.maholobela%40icloud.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matimba.maholobela@icloud.com)
-</div>
+</p>
 
-💬 Open to **collaboration**, **tech discussions**, and **new ideas**!  
+💬 Open to collaboration, tech discussions, and new ideas!
 
 ---
 
