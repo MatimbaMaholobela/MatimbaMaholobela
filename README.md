@@ -18,7 +18,7 @@ My commitment to quality and collaboration has earned me multiple **Excellence i
 
 ## 👨‍💼 Current Role (Freelance)
 
-### 🏢 Lead Software Engineer @ [Storage Sprint](#)
+### 🏢 Lead Software Engineer @ [Storage Sprint](www.storagesprint.co.za)
 Leading a team of five developers in building a logistics-focused web application managing package movements across Cape Town.
 
 #### **Responsibilities**
