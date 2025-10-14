@@ -5,44 +5,40 @@
 
 ---
 
-# 👋 Hey there! I'm **Matimba Maholobela**
+# 👋 Hi, I'm **Matimba Maholobela**
 
 🔧 **Software Engineer** • ☁️ **AWS Cloud Practitioner** • 💻 **Full-Stack Developer** • 🚀 **Continuous Learner**
 
-Welcome to my GitHub space!  
-I’m a dedicated software engineer passionate about **building scalable, maintainable, and impactful systems**.  
-With expertise in **software development, cloud computing, and DevOps**, I aim to deliver solutions that make a difference.
+> Building **scalable, maintainable, and impactful systems** while exploring **cloud, DevOps, and full-stack development**.
 
-> 🏅 Proud recipient of multiple **SEACOM Excellence in Action Awards**
+🏅 Proud recipient of multiple **SEACOM Excellence in Action Awards**  
 
 ---
 
-## 🎓 **Certifications**
-
-- 🎓 **BSc in Computer Science & Applied Statistics – University of Cape Town**  
+## 🎓 **Certifications & Education**
+- 🎓 **BSc in Computer Science & Applied Statistics** – University of Cape Town  
 - 🏆 **AWS Certified Cloud Practitioner**  
 - 🚀 **AWS Certified Developer – Associate (In Progress)**  
-- 💼 **SEACOM - Excellence in Action Certificates (Multiple)**  
+- 💼 **SEACOM Excellence in Action Certificates (Multiple)**  
 
 ---
 
-## 👨‍💼 **Current Role**
+## 💼 **Current Role**
 
 ### 🏢 Lead Software Engineer @ [Storage Sprint](https://www.storagesprint.co.za)
+Leading a team of 5 developers to build **logistics-focused web applications** across Cape Town.
 
-Leading a team of five developers to build a logistics-focused web application managing package movements across Cape Town.
+#### ⚡ Key Responsibilities
+- Architecting and managing **full-stack solutions**  
+- Overseeing **CI/CD pipelines** and agile workflows  
+- Ensuring **scalability, performance & security**
 
-#### 🧠 **Responsibilities**
-- Architecting and managing full-stack solutions  
-- Overseeing CI/CD pipelines and agile workflows  
-- Ensuring scalability, performance, and security  
-
-#### ✨ **Key Features**
+#### ✨ Highlights
 - Real-time **package tracking**  
 - Secure **PayFast** payment integration  
 - RESTful backend (**Django**) + reactive frontend (**React**)  
 
-#### ⚙️ **Tech Stack**
+#### 🛠 Tech Stack
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
@@ -50,132 +46,78 @@ Leading a team of five developers to build a logistics-focused web application m
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
 
-**Backend:** Django REST Framework, Spring  
-**Frontend:** React  
-**Database:** Amazon RDS  
-**Containerization:** Docker  
-**Hosting:** AWS & DigitalOcean  
-**Integrations:** Google Maps, Zoho Books, PayFast  
-
 ---
 
 ## 🚀 **Featured Projects**
 
-### 🌐 [SQL Assignment System](https://github.com/MatimbaMaholobela/sqltest-system)
-A system that streamlines **SQL assignment creation and grading** for computer science students using Django.
-
-**Tech:** Django • Python • SQL  
-**Highlights:**
-- Automated SQL query evaluation  
-- Simplified instructor UI  
-- Optimized for classroom scalability  
+| Project | Description | Tech & Highlights |
+|---------|------------|-----------------|
+| [SQL Assignment System](https://github.com/MatimbaMaholobela/sqltest-system) | Streamlines **SQL assignment creation & grading** for students | Django • Python • SQL • Automated query evaluation • Scalable UI |
+| [CS2 Admin System](https://github.com/MatimbaMaholobela/cs2-admin-system) | Admin portal for managing **certificates & extensions** | Django • REST APIs • Secure role-based management |
+| [To-Do List App](https://github.com/MatimbaMaholobela/to-do-list-app) | Task management app with **analytics & persistent storage** | Java • Spring • SQLite • CRUD & analytics dashboard |
+| [DNS Server w/ APL Support](https://github.com/MatimbaMaholobela/DNS-Server-APL-Record) | Custom DNS server supporting **APL records** | Python • Twisted • RFC-compliant networking |
 
 ---
 
-### 🩺 [CS2 Admin System](https://github.com/MatimbaMaholobela/cs2-admin-system)
-Admin portal for managing **academic certificates, waivers, and extensions** with a Django REST backend.
+## 🛠 **Tech Stack & Skills**
 
-**Tech:** Django • REST APIs  
-**Highlights:**
-- Secure, role-based management  
-- RESTful integration with frontend  
-
----
-
-### ☕ [To-Do List Application](https://github.com/MatimbaMaholobela/to-do-list-app)
-A **Spring-based task management app** with persistent storage and analytics.
-
-**Tech:** Java • Spring • SQLite  
-**Highlights:**
-- Full CRUD functionality  
-- Analytics dashboard  
-- Clean and minimal UI  
-
----
-
-### 🧩 [DNS Server with APL Record Support](https://github.com/MatimbaMaholobela/DNS-Server-APL-Record)
-A **custom DNS server** built in Python using Twisted, supporting the experimental APL (Address Prefix List) record.
-
-**Tech:** Python • Twisted  
-**Highlights:**
-- Implements APL per RFC  
-- Low-level network programming  
-- Custom DNS protocol logic  
-
----
-
-## ⚙️ **Tech Stack & Skills**
-
-### 💻 **Languages & Frameworks**
+### 💻 Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
 - **Python:** Django, REST Framework, Twisted  
-- **Java:** Spring Framework  
+- **Java:** Spring  
 - **JavaScript:** React  
-- **SQL:** PostgreSQL, MySQL, SQLite, Amazon RDS  
+- **Databases:** PostgreSQL, MySQL, SQLite, Amazon RDS  
 
----
-
-### ☁️ **Cloud & DevOps**
+### ☁️ Cloud & DevOps
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
 
-- **AWS:** EC2, S3, RDS, IAM, CloudFormation  
-- **Docker:** Containerization & Orchestration  
-- **CI/CD:** GitHub Actions  
-- **Linux:** Ubuntu, FreeBSD  
+- AWS: EC2, S3, RDS, IAM, CloudFormation  
+- Containerization: Docker  
+- CI/CD: GitHub Actions  
+- Linux: Ubuntu, FreeBSD  
 
----
-
-### 🧰 **Tools & Methodologies**
+### 🧰 Tools & Methodologies
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-- **Agile Project Management:** Jira, Confluence  
-- **Version Control:** GitHub, GitLab  
-- **Collaboration:** Code reviews, documentation-first  
+- Agile, Code Reviews, Documentation-first  
 
 ---
 
-## 📊 **GitHub Insights**
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MatimbaMaholobela&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MatimbaMaholobela&theme=tokyonight" alt="GitHub Streak" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MatimbaMaholobela&show_icons=true&theme=tokyonight" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MatimbaMaholobela&theme=tokyonight" height="165" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatimbaMaholobela&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatimbaMaholobela&layout=compact&theme=tokyonight" />
 </p>
 
----
-
-## 🏆 **GitHub Trophies**
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=MatimbaMaholobela&theme=tokyonight&no-bg=true&no-frame=true" />
 </p>
 
----
-
-## 📈 **Contribution Graph**
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MatimbaMaholobela&theme=tokyo-night" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MatimbaMaholobela&theme=tokyo-night" />
 </p>
 
 ---
 
-## 🤝 **Let’s Connect**
+## 🤝 Let's Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-MatimbaMaholobela-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/matimbamaholobela)
+[![Email](https://img.shields.io/badge/Email-matimba.maholobela%40icloud.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matimba.maholobela@icloud.com)
 
-[![LinkedIn - Matimba Maholobela](https://img.shields.io/badge/LinkedIn-MatimbaMaholobela-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/matimbamaholobela)
-[![Email - Matimba](https://img.shields.io/badge/Email-matimba.maholobela%40icloud.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matimba.maholobela@icloud.com)
-
-> 💬 Open to **collaboration**, **new ideas**, and **tech discussions**!
+💬 Open to **collaboration**, **tech discussions**, and **new ideas**!  
 
 ---
 
-## 🎯 **Fun Fact**
-> I’m always exploring new frameworks, automating workflows, and building solutions that make life easier — **one line of code at a time**.
+## 🎯 Fun Fact
+> I love automating workflows, exploring new frameworks, and building solutions that make life easier — **one line of code at a time**.
